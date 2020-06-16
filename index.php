@@ -3,16 +3,9 @@
 <body>
 
 <?php
-$url = "https://www.w3schools.com";
+$url = "h";
 
-// Remove all illegal characters from a url
-$url = filter_var($url, FILTER_SANITIZE_URL);
-
-// Validate url
-if (!filter_var($url, FILTER_VALIDATE_URL) === false) {
-  echo("$url is a valid URL");
-} else {
-  echo("$url is not a valid URL");
+  echo("this is my first page");
 }
 ?>
 
